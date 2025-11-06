@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ruda:wght@400..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #222;
+}
+
+.parent {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #111;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  height: 310px;
+  width: 230px;
+  background-color: #dadada;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.card .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.top img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid #2e2e2e;
+
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 5px;
+  border: 1px solid #a9a5a5;
+  font-size: 11px;
+  gap: 3px;
+  color: #3e3d3d;
+  background-color: transparent;
+  height: 22px;
+}
+
+.center h3 {
+  font-size: 17px;
+  font-weight: 500;
+
+}
+
+.center h3 span {
+  font-size: 9px;
+  font-weight: 400;
+  color: #2e2e2e;
+}
+
+.center h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.center .btn {
+  display: flex;
+  gap: 5px;
+
+}
+
+.center .btn h4 {
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 10px;
+  background-color: #a6a6a6;
+  color: #111;
+  padding: 4px 8px;
+  border-radius: 3px;
+
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1.5px solid #979696;
+  padding-top: 15px;
+}
+
+.bottom h3 {
+  font-size: 17px;
+}
+
+.bottom p {
+  font-size: 10px;
+  color: #3a3838;
+}
+
+.bottom button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  column-width: 600;
+
+}
