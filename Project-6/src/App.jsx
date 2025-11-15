@@ -43,7 +43,7 @@ function App() {
       <div className="flex justify-center gap-6 items-center p-4">
         <button
           style={{ opacity: index == 1 ? 0.6 : 1 }}
-          className="bg-amber-400 cursor-pointer active:scale-95 text-black rounded px-4 py-2 font-semibold text-sm"
+          className="bg-yellow-400 cursor-pointer active:scale-95 text-black rounded px-4 py-2 font-semibold text-sm"
           onClick={() => {
             if (index > 1) {
               setIndex(index - 1);
