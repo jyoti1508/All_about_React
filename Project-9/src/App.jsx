@@ -3,7 +3,7 @@ import React from "react";
 const App = () => {
   return (
     <div className="flex justify-center items-center pt-60">
-      <div className=" h-500 flex flex-col gap-3 inset-shadow-gray-500">
+      <div className=" h-500 flex flex-col gap-2 inset-shadow-gray-500">
         <h1>BMI Calculator</h1>
         <div className="flex flex-col ">
           <label htmlFor="weight">Weight(lbs)</label>
