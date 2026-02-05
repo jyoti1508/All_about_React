@@ -4,7 +4,7 @@ import Card from "./Components/Card";
 function App() {
   const jobOpenings = [
     {
-      brandLogo: "https://logo.clearbit.com/meta.com",
+      brandLogo: "https://blog.logomyway.com/meta-logo/",
       nameOfCompany: "Meta",
       datePosted: "3 days ago",
       post: "Frontend Engineer",
